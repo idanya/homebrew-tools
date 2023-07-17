@@ -5,11 +5,11 @@
 class EvmCli < Formula
   desc ""
   homepage "https://github.com/idanya/homebrew-tools"
-  version "1.0.5"
+  version "1.0.6"
 
   on_macos do
-    url "https://github.com/idanya/evm-cli/releases/download/v1.0.5/evm-cli_Darwin_x86_64.tar.gz"
-    sha256 "5bc8538958a68b313885951e7ea746323cc5eb58c31403d611a11f14576dfff5"
+    url "https://github.com/idanya/evm-cli/releases/download/v1.0.6/evm-cli_Darwin_x86_64.tar.gz"
+    sha256 "686e5a15d11da07233f4ade73cc24883888b2d8970d80586af66783724673fc2"
 
     def install
       bin.install "evm-cli"
@@ -28,8 +28,8 @@ class EvmCli < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/idanya/evm-cli/releases/download/v1.0.5/evm-cli_Linux_x86_64.tar.gz"
-      sha256 "54223f7a27a9d3aeb441445e5d92df760462d8236937dab98eaa856a68bbc5dd"
+      url "https://github.com/idanya/evm-cli/releases/download/v1.0.6/evm-cli_Linux_x86_64.tar.gz"
+      sha256 "278752e25b6133f8a1f3af80489338572d21f92860ca990ae708fde4075028cb"
 
       def install
         bin.install "evm-cli"
